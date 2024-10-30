@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: rgb(205, 205, 205);
+    border-radius: 10px;
+    gap: 0.75rem;
+}
+.textAreaBox{
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    width: 30rem;   
+    height: 25rem;
+    font-size: 1rem;
+    padding: 1rem 0.5rem;
+    font-family: monospace;
+}
+.textAreaBox p{
+    float: right;
+    color: rgb(100, 100, 100);
+}
+.textArea{
+    outline: none;
+    resize: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    color: rgb(100, 100, 100);
+}
+.submitBtn{
+    width: 50%;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 128, 38);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.submitBtn:hover{
+    background-color: rgb(255, 106, 0);
+}

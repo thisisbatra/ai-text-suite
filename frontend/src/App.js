@@ -1,8 +1,8 @@
 import React from 'react';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Output from './Components/Summarizer/Output';
-import Summarizer from './Components/Summarizer/Summarizer.jsx';
-import Input from './Components/Summarizer/Input.jsx';
+import Summarizer from './Components/Summarizer/Summarizer';
+import Input from './Components/Summarizer/Input';
 
 const App = () => {
   return (
